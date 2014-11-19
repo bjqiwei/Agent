@@ -1,0 +1,11 @@
+[NuMega Checkers Project]
+Version=1
+ImageCount=1
+[Image 0]
+Path=D:\DTC5\AgentOCX\Test\Project1.exe
+Executable=
+WorkingPath=D:\DTC5\AgentOCX\Test\
+Arguments=
+SearchPaths=.;..;
+ProjectType=0
+ClassPath=

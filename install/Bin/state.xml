@@ -1,0 +1,18 @@
+<STATUS>
+	<Button Name="Hook" Title="OffHook" Enable="1"/>
+	<Button Name="Hold" Title="Hold" Enable="1"/>
+	<Button Name="Transfer" Title="Transfer" Enable="1"/>
+	<Button Name="DialOut" Title="DialOut" Enable="1"/>
+	<Button Name="Consultation" Title="Consultation" Enable="1"/>
+	<Button Name="Auto" Title="Auto" Enable="1"/>
+	<Button Name="OutPhone" Title="OutPhone" Enable="1"/>
+	<Button Name="Fax" Title="Fax" Enable="1"/>
+	<Button Name="Pause" Title="Pause" Enable="1"/>
+	<Button Name="Conference" Title="Conference" Enable="1"/>
+	<Button Name="Play" Title="Play" Enable="1"/>
+	<Button Name="ReceiveDTMF" Title="ReceiveDTMF" Enable="1"/>
+	<Button Name="Listen" Title="Listen" Enable="1"/>
+	<Button Name="RecordSeat" Title="RecordSeat" Enable="1"/>
+	<Button Name="Disconnect" Title="Disconnect" Enable="1"/>
+	<Button Name="RopCall" Title="RopCall" Enable="1"/>
+</STATUS>
