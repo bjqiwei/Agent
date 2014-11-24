@@ -7,10 +7,10 @@
 ; (若要生成一个新的 GUID，请选择“工具 | 生成 GUID”。)
 AppId={{13779961-0058-4591-A51D-15FB410FAE3A}}
 AppName=AgentOCX
-AppVersion=2.0.0.0
+AppVersion=2.0.0.1
 AppCopyright=Copyright (C)qiwei Inc.
 AppComments=qiwei
-VersionInfoVersion=2.0.0.0
+VersionInfoVersion=2.0.0.1
 VersionInfoDescription=AgentOCX安装包
 AppPublisher=qiwei
 DefaultDirName={pf32}\CTI\AgentOCX
