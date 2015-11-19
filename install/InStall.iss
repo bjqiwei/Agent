@@ -32,44 +32,49 @@ Name: "chinese"; MessagesFile: "ChineseSimplified.isl"
 ;Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: ".\DLL\MSCOMCTL.OCX"; DestDir: "{sys}"; Flags: 32bit regserver onlyifdoesntexist uninsneveruninstall
-Source: ".\DLL\msvcrt.dll"; DestDir: "{sys}"; Flags: 32bit onlyifdoesntexist uninsneveruninstall
-Source: ".\DLL\mfc42.dll"; DestDir: "{sys}"; Flags: 32bit regserver onlyifdoesntexist uninsneveruninstall
-Source: ".\DLL\Msvbvm50.dll"; DestDir: "{sys}"; Flags: 32bit regserver onlyifdoesntexist uninsneveruninstall
-Source: ".\DLL\LiteZip.dll"; DestDir: "{sys}"; Flags: 32bit onlyifdoesntexist uninsneveruninstall
-Source: ".\DLL\LiteUnzip.dll"; DestDir: "{sys}"; Flags: 32bit onlyifdoesntexist uninsneveruninstall
-Source: ".\DLL\vbaliml6.ocx"; DestDir: "{app}\DLL"; Flags: 32bit regserver
-Source: ".\DLL\vbalgrid.ocx"; DestDir: "{app}\DLL"; Flags: 32bit regserver
-Source: ".\DLL\SSubTmr6.dll"; DestDir: "{app}\DLL"; Flags: 32bit regserver
-Source: ".\DLL\ssubtmr.dll"; DestDir: "{app}\DLL";  Flags: 32bit regserver
-Source: ".\DLL\SmartUI.ocx"; DestDir: "{app}\DLL";  Flags: 32bit regserverSource: ".\DLL\SmartUI.oca"; DestDir: "{app}\DLL";  Flags: 32bit  Source: ".\DLL\Shdocvw.dll"; DestDir: "{app}\DLL";  Flags: 32bit 
-Source: ".\DLL\scrrun.dll"; DestDir: "{sys}";   Flags: 32bit regserver onlyifdoesntexist uninsneveruninstall  Source: ".\DLL\RecordListnerOCX.dll"; DestDir: "{app}\DLL"; Flags: 32bit regserver
-Source: ".\DLL\prjIVRTree.ocx"; DestDir: "{app}\DLL"; Flags: 32bit regserver
-Source: ".\DLL\prjAgentInterpretor.dll"; DestDir: "{app}\DLL"; Flags: 32bit regserver
-Source: ".\DLL\pophandler.dll"; DestDir: "{app}\DLL"; Flags: 32bit regserver
-Source: ".\DLL\NetMeetingCOM.dll"; DestDir: "{app}\DLL"; Flags: 32bit regserver
-Source: ".\DLL\Mswinsck.ocx"; DestDir: "{sys}"; Flags: 32bit regserver onlyifdoesntexist uninsneveruninstall
-Source: ".\DLL\msscript.ocx"; DestDir: "{sys}"; Flags: 32bit regserver onlyifdoesntexist uninsneveruninstall
-Source: ".\DLL\Mscomct2.ocx"; DestDir: "{sys}"; Flags: 32bit regserver onlyifdoesntexist uninsneveruninstall
-Source: ".\DLL\cnewmenu.dll"; DestDir: "{app}\DLL"; Flags: 32bit regserver
-Source: ".\DLL\AutoItX.dll"; DestDir: "{app}\DLL"; Flags: 32bit regserver
-Source: ".\DLL\AgentOCX.dll"; DestDir: "{app}\DLL"; Flags: 32bit regserver
-Source: ".\DLL\Actbar2.ocx"; DestDir: "{app}\DLL"; Flags: 32bit regserver
-Source: ".\DLL\G723ToWave.dll"; DestDir: "{sys}"; Flags: 32bit onlyifdoesntexist uninsneveruninstall
-Source: ".\DLL\djcvt.dll"; DestDir: "{sys}"; Flags: 32bit onlyifdoesntexist 
-Source: ".\DLL\DJ_TIF.dll"; DestDir: "{sys}"; Flags: 32bit onlyifdoesntexist
-Source: ".\tools\ClientWindow.exe"; DestDir: "{sys}"; Flags: 32bit onlyifdoesntexist uninsneveruninstall
-Source: ".\DLL\atl.dll"; DestDir: "{sys}"; Flags: 32bit onlyifdoesntexist uninsneveruninstall
-Source: ".\Uniland\ItemString.txt"; DestDir: "{app}\Uniland";
+Source: ".\DLL\MSCOMCTL.OCX";           DestDir: "{sys}";     Flags: 32bit regserver onlyifdoesntexist uninsneveruninstall
+Source: ".\DLL\msvcrt.dll";             DestDir: "{sys}";     Flags: 32bit onlyifdoesntexist uninsneveruninstall
+Source: ".\DLL\mfc42.dll";              DestDir: "{sys}";     Flags: 32bit regserver onlyifdoesntexist uninsneveruninstall
+Source: ".\DLL\Msvbvm50.dll";           DestDir: "{sys}";     Flags: 32bit regserver onlyifdoesntexist uninsneveruninstall
+Source: ".\DLL\LiteZip.dll";            DestDir: "{sys}";     Flags: 32bit onlyifdoesntexist uninsneveruninstall
+Source: ".\DLL\LiteUnzip.dll";          DestDir: "{sys}";     Flags: 32bit onlyifdoesntexist uninsneveruninstall
+Source: ".\DLL\vbaliml6.ocx";           DestDir: "{sys}";     Flags: 32bit regserver onlyifdoesntexist uninsneveruninstall
+Source: ".\DLL\vbalgrid.ocx";           DestDir: "{sys}";     Flags: 32bit regserver onlyifdoesntexist uninsneveruninstall
+Source: ".\DLL\SSubTmr6.dll";           DestDir: "{sys}";     Flags: 32bit regserver onlyifdoesntexist uninsneveruninstall
+Source: ".\DLL\ssubtmr.dll";            DestDir: "{sys}";     Flags: 32bit regserver onlyifdoesntexist uninsneveruninstall
+Source: ".\DLL\SmartUI.ocx";            DestDir: "{sys}";     Flags: 32bit regserver onlyifdoesntexist uninsneveruninstallSource: ".\DLL\SmartUI.oca";            DestDir: "{sys}";     Flags: 32bit onlyifdoesntexist uninsneveruninstall
+;Source: ".\DLL\Shdocvw.dll";            DestDir: "{sys}";     Flags: 32bit regserver onlyifdoesntexist uninsneveruninstall
+Source: ".\DLL\scrrun.dll";             DestDir: "{sys}";     Flags: 32bit regserver onlyifdoesntexist uninsneveruninstall  Source: ".\DLL\RecordListnerOCX.dll";   DestDir: "{app}\DLL"; Flags: 32bit regserver
+Source: ".\DLL\prjIVRTree.ocx";         DestDir: "{app}\DLL"; Flags: 32bit regserver
+Source: ".\DLL\prjAgentInterpretor.dll";DestDir: "{app}\DLL"; Flags: 32bit regserver
+Source: ".\DLL\pophandler.dll";         DestDir: "{app}\DLL"; Flags: 32bit regserver
+Source: ".\DLL\NetMeetingCOM.dll";      DestDir: "{sys}";     Flags: 32bit regserver onlyifdoesntexist uninsneveruninstall
+Source: ".\DLL\Mswinsck.ocx";           DestDir: "{sys}";     Flags: 32bit regserver onlyifdoesntexist uninsneveruninstall
+Source: ".\DLL\msscript.ocx";           DestDir: "{sys}";     Flags: 32bit regserver onlyifdoesntexist uninsneveruninstall
+Source: ".\DLL\Mscomct2.ocx";           DestDir: "{sys}";     Flags: 32bit regserver onlyifdoesntexist uninsneveruninstall
+Source: ".\DLL\cnewmenu.dll";           DestDir: "{app}\DLL"; Flags: 32bit regserver
+Source: ".\DLL\AutoItX.dll";            DestDir: "{app}\DLL"; Flags: 32bit regserver
+Source: ".\DLL\AgentOCX.dll";           DestDir: "{app}\DLL"; Flags: 32bit regserver
+Source: ".\DLL\Actbar2.ocx";            DestDir: "{app}\DLL"; Flags: 32bit regserver
+Source: ".\DLL\MSCOMCTL.OCX";           DestDir: "{sys}";     Flags: 32bit regserver onlyifdoesntexist uninsneveruninstall
+Source: ".\DLL\LiteZip.dll";            DestDir: "{sys}";     Flags: 32bit onlyifdoesntexist uninsneveruninstall
+Source: ".\DLL\LiteUnzip.dll";          DestDir: "{sys}";     Flags: 32bit onlyifdoesntexist uninsneveruninstall
+Source: ".\DLL\G723ToWave.dll";         DestDir: "{sys}";     Flags: 32bit onlyifdoesntexist uninsneveruninstall
+Source: ".\DLL\djcvt.dll";              DestDir: "{sys}";     Flags: 32bit onlyifdoesntexist 
+Source: ".\DLL\DJ_TIF.dll";             DestDir: "{sys}";     Flags: 32bit onlyifdoesntexist
+Source: ".\tools\ClientWindow.exe";     DestDir: "{sys}";     Flags: 32bit onlyifdoesntexist uninsneveruninstall
+Source: ".\DLL\atl.dll";                DestDir: "{sys}";     Flags: 32bit regserver onlyifdoesntexist uninsneveruninstall
+Source: ".\Uniland\ItemString.txt";     DestDir: "{app}\Uniland";
 Source: ".\Uniland\Prj_Uniland_AgentOCX.ocx"; DestDir: "{app}\Uniland"; Flags: 32bit regserver
-Source: ".\Uniland\Project1.exe"; DestDir: "{app}\Uniland";
-Source: ".\Uniland\Yeling.wav"; DestDir: "{app}\Uniland";
-Source: ".\Sample\VB\*"; DestDir:"{app}\Sample\VB";Source: ".\Sample\VB\GingeAPI.dll"; DestDir:"{app}\Sample\VB"; Flags: 32bit regserver
-Source: ".\Reg\regset.ini"; DestDir: "{app}\Reg"; 
-Source: ".\Reg\reg.bat"; DestDir: "{app}\Reg"; 
-Source: ".\Doc\*"; DestDir: "{app}\Doc"; 
-Source: ".\*.vox"; DestDir: "{app}";
-Source: ".\Bin\*"; DestDir: "{app}\Bin";
+Source: ".\Uniland\Project1.exe";       DestDir: "{app}\Uniland";
+Source: ".\Uniland\Yeling.wav";         DestDir: "{app}\Uniland";
+Source: ".\Sample\VB\*";                DestDir:"{app}\Sample\VB";Source: ".\Sample\VB\GingeAPI.dll";     DestDir:"{app}\Sample\VB";Flags: 32bit regserver
+Source: ".\Reg\regset.ini";             DestDir: "{app}\Reg"; 
+Source: ".\Reg\reg.bat";                DestDir: "{app}\Reg"; 
+Source: ".\Doc\*";                      DestDir: "{app}\Doc"; 
+Source: ".\AgentID.vox";                DestDir: "{app}";
+Source: ".\welcome.vox";                DestDir: "{app}";
+Source: ".\Bin\*";                      DestDir: "{app}\Bin";
 
 ; 注意: 不要在任何共享系统文件上使用“Flags: ignoreversion”
                                             
@@ -100,12 +105,7 @@ Root: HKLM; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: string; ValueN
 Root: HKLM; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: dword; ValueName: "NotifyAcwDur"; ValueData:"0"; Flags: uninsdeletekey
 Root: HKLM; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: dword; ValueName: "NotifyAcwDur_Rep"; ValueData:"1"; Flags: uninsdeletekey
 Root: HKLM; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: dword; ValueName: "NotifyDur"; ValueData:"3"; Flags: uninsdeletekey
-Root: HKLM; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: string; ValueName: ""; ValueData:""; Flags: uninsdeletekey
-Root: HKLM; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: string; ValueName: ""; ValueData:""; Flags: uninsdeletekey
-Root: HKLM; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: string; ValueName: ""; ValueData:""; Flags: uninsdeletekey
-Root: HKLM; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: string; ValueName: ""; ValueData:""; Flags: uninsdeletekey
-Root: HKLM; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: string; ValueName: ""; ValueData:""; Flags: uninsdeletekey
-Root: HKLM; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: string; ValueName: ""; ValueData:""; Flags: uninsdeletekey
+
 
 [UninstallDelete]
 Type:files; Name:"{app}\*.log";
