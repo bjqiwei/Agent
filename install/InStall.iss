@@ -87,24 +87,24 @@ Name: "{group}\Sample\VB\Project1"; Filename: "{app}\Sample\VB\Project1.exe"
 ;Name: "{userappdata}\Microsoft\Internet Explorer\Quick Launch\CloopenClientOCX"; Filename: "{app}\ClientOCX.htm"; Tasks: quicklaunchicon
 
 [Registry]
-Root: HKLM; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: string; ValueName: "AgentRunPath"; ValueData:"{app}\Bin\AgentRun.abs"; Flags: uninsdeletekey
-Root: HKLM; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: string; ValueName: "BinPath"; ValueData:"{app}\Bin"; Flags: uninsdeletekey
-Root: HKLM; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: string; ValueName: "ConnectionString"; ValueData:"Provider=SQLOLEDB.1;Password=sa;Persist Security Info=True;User ID=sa;Initial Catalog=TF_CMS;Data Source=192.168.1.6"; Flags: uninsdeletekey
-Root: HKLM; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: string; ValueName: "StatePath"; ValueData:"{app}\Bin\State.xml"; Flags: uninsdeletekey
-Root: HKLM; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: string; ValueName: "DeviceName"; ValueData:"User"; Flags: uninsdeletekey
-Root: HKLM; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: dword;  ValueName: "SetDeviceName"; ValueData:"1"; Flags: uninsdeletekey
-Root: HKLM; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: string; ValueName: "AutoNodeID"; ValueData:"E188FDDF884145CFAA133075BDE78A44"; Flags: uninsdeletekey
-Root: HKLM; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: string; ValueName: "AutoSbsPath"; ValueData:"C:\123.sbs"; Flags: uninsdeletekey
-Root: HKLM; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: dword; ValueName: "OffHook_Always"; ValueData:"1"; Flags: uninsdeletekey
-Root: HKLM; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: dword; ValueName: "EnableEmailFunc"; ValueData:"1"; Flags: uninsdeletekey
-Root: HKLM; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: dword; ValueName: "EnableTextChatFunc"; ValueData:"1"; Flags: uninsdeletekey
-Root: HKLM; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: dword; ValueName: "EnableTextChatNotify"; ValueData:"1"; Flags: uninsdeletekey
-Root: HKLM; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: string; ValueName: "POP3IPAddress"; ValueData:"192.168.1.6"; Flags: uninsdeletekey
-Root: HKLM; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: dword; ValueName: "POP3Port"; ValueData:"111"; Flags: uninsdeletekey
-Root: HKLM; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: string; ValueName: "TextChatServerIP"; ValueData:"192.168.1.2"; Flags: uninsdeletekey
-Root: HKLM; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: dword; ValueName: "NotifyAcwDur"; ValueData:"0"; Flags: uninsdeletekey
-Root: HKLM; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: dword; ValueName: "NotifyAcwDur_Rep"; ValueData:"1"; Flags: uninsdeletekey
-Root: HKLM; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: dword; ValueName: "NotifyDur"; ValueData:"3"; Flags: uninsdeletekey
+Root: HKLM32; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: string; ValueName: "AgentRunPath"; ValueData:"{app}\Bin\AgentRun.abs"; Flags: deletevalue uninsdeletekey
+Root: HKLM32; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: string; ValueName: "BinPath"; ValueData:"{app}\Bin"; Flags: deletevalue uninsdeletekey
+Root: HKLM32; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: string; ValueName: "ConnectionString"; ValueData:"Provider=SQLOLEDB.1;Password=sa;Persist Security Info=True;User ID=sa;Initial Catalog=TF_CMS;Data Source=192.168.1.6"; Flags: deletevalue uninsdeletekey
+Root: HKLM32; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: string; ValueName: "StatePath"; ValueData:"{app}\Bin\State.xml"; Flags: deletevalue uninsdeletekey
+Root: HKLM32; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: string; ValueName: "DeviceName"; ValueData:"User"; Flags: deletevalue uninsdeletekey
+Root: HKLM32; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: dword;  ValueName: "SetDeviceName"; ValueData:"1"; Flags: deletevalue uninsdeletekey
+Root: HKLM32; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: string; ValueName: "AutoNodeID"; ValueData:"E188FDDF884145CFAA133075BDE78A44"; Flags: deletevalue uninsdeletekey
+Root: HKLM32; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: string; ValueName: "AutoSbsPath"; ValueData:"C:\123.sbs"; Flags: deletevalue uninsdeletekey
+Root: HKLM32; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: dword; ValueName: "OffHook_Always"; ValueData:"1"; Flags: deletevalue uninsdeletekey
+Root: HKLM32; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: dword; ValueName: "EnableEmailFunc"; ValueData:"1"; Flags: deletevalue uninsdeletekey
+Root: HKLM32; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: dword; ValueName: "EnableTextChatFunc"; ValueData:"1"; Flags: deletevalue uninsdeletekey
+Root: HKLM32; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: dword; ValueName: "EnableTextChatNotify"; ValueData:"1"; Flags: deletevalue uninsdeletekey
+Root: HKLM32; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: string; ValueName: "POP3IPAddress"; ValueData:"192.168.1.6"; Flags: deletevalue uninsdeletekey
+Root: HKLM32; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: dword; ValueName: "POP3Port"; ValueData:"111"; Flags: deletevalue uninsdeletekey
+Root: HKLM32; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: string; ValueName: "TextChatServerIP"; ValueData:"192.168.1.2"; Flags: deletevalue uninsdeletekey
+Root: HKLM32; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: dword; ValueName: "NotifyAcwDur"; ValueData:"0"; Flags: deletevalue uninsdeletekey
+Root: HKLM32; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: dword; ValueName: "NotifyAcwDur_Rep"; ValueData:"1"; Flags: deletevalue uninsdeletekey
+Root: HKLM32; Subkey: "SOFTWARE\Samwoo\AA\PBXSoftPhone"; ValueType: dword; ValueName: "NotifyDur"; ValueData:"3"; Flags: deletevalue uninsdeletekey
 
 
 [UninstallDelete]
